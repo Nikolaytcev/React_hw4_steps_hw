@@ -32,4 +32,33 @@ button {
     background-color: white;
 }
 
+.table {
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.raw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.pencil {
+    width: 20px;
+    height: 20px;
+}
+
+.delete {
+    width: 20px;
+    height: 20px;
+}
+
 
